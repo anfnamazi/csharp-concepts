@@ -1,4 +1,6 @@
-public class ValueTypesDemo
+using Csharp.Interfaces;
+
+public class ValueTypesDemo : IDemo
 {
     public static void Run()
     {

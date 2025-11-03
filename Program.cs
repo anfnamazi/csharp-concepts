@@ -9,11 +9,13 @@ class Program
     {
         Console.WriteLine(args[1]);
 
-        // Csharp concepts
-        ValueTypesDemo.Run();
-        InterfaceDemo.Run();
-        SetGetDemo.Run();
-        OverloadMethodDemo.Run();
+        // ### Csharp concepts
+
+        // ValueTypesDemo.Run();
+        // InterfaceDemo.Run();
+        // SetGetDemo.Run();
+        // OverloadMethodDemo.Run();
+        InheritanceDemo.Run();
     }
 }
 

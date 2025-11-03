@@ -1,8 +1,9 @@
+using Csharp.Interfaces;
 using Csharp.Models;
 
 namespace Csharp.Fundamental;
 
-public class SetGetDemo
+public class SetGetDemo : IDemo
 {
     public static void Run()
     {

@@ -1,8 +1,9 @@
+using Csharp.Interfaces;
 using Csharp.Models;
 
 namespace Csharp.OOP;
 
-public class OverloadMethodDemo
+public class OverloadMethodDemo : IDemo
 {
     public static void Run()
     {

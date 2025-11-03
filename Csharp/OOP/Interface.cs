@@ -1,3 +1,5 @@
+using Csharp.Interfaces;
+
 namespace Csharp.OOP;
 
 interface ICar
@@ -31,7 +33,7 @@ class BmwCar : ICar
     }
 }
 
-public class InterfaceDemo
+public class InterfaceDemo : IDemo
 {
     public static void Run()
     {

@@ -17,4 +17,9 @@ class Person
     {
         Console.WriteLine($"Hello, {Name}");
     }
+
+    public virtual string GetId()
+    {
+        return Name.ToLower();
+    }
 }

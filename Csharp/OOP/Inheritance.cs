@@ -3,7 +3,12 @@ using Csharp.Models;
 
 namespace Csharp.OOP;
 
-class Employee : Person
+interface ISalary
+{
+    public decimal GetSalary();
+}
+
+class Employee : Person, ISalary
 {
 
     public Employee(string name, string role) : base(name)
@@ -17,6 +22,11 @@ class Employee : Person
     {
         return $"{Role}-{base.GetId()}";
     }
+
+    public decimal GetSalary()
+    {
+        return 2000;
+    }
 }
 
 public class InheritanceDemo : IDemo
@@ -27,7 +37,7 @@ public class InheritanceDemo : IDemo
         Employee employee = new Employee("Jessica", "CEO");
 
         Console.WriteLine($"Person: {person.GetId()}");
-        Console.WriteLine($"Employee: {employee.GetId()}");
+        Console.WriteLine($"Employee: {employee.GetId()}, Salary: {employee.GetSalary()}");
 
     }
 }

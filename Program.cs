@@ -7,7 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine(args[1]);
+        // Console.WriteLine(args[1]);
 
         // ### Csharp concepts
 
@@ -15,10 +15,7 @@ class Program
         // InterfaceDemo.Run();
         // SetGetDemo.Run();
         // OverloadMethodDemo.Run();
-        InheritanceDemo.Run();
+        // InheritanceDemo.Run();
+        PolymorphismDemo.Run();
     }
 }
-
-
-
-

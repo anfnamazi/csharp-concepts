@@ -19,6 +19,7 @@ class Program
         // InheritanceDemo.Run();
         // PolymorphismDemo.Run();
         // EnumDemo.Run();
-        switchDemo.Run();
+        // switchDemo.Run();
+        StructsDemo.Run();
     }
 }

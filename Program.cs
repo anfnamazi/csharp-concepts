@@ -20,6 +20,7 @@ class Program
         // PolymorphismDemo.Run();
         // EnumDemo.Run();
         // switchDemo.Run();
-        StructsDemo.Run();
+        // StructsDemo.Run();
+        ValueReference.Run();
     }
 }

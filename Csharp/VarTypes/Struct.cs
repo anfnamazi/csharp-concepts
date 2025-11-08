@@ -20,9 +20,9 @@ using Csharp.Interfaces;
 
 namespace Csharp.VarTypes;
 
-struct Rectangle
+struct StructRectangle : IRectangle
 {
-    public Rectangle(int width, int height)
+    public StructRectangle(int width, int height)
     {
         Width = width;
         Height = height;
@@ -43,7 +43,7 @@ class StructsDemo : IDemo
 {
     public static void Run()
     {
-        var rectangle = new Rectangle(30, 20);
+        var rectangle = new StructRectangle(30, 20);
         Console.Write($"rectangle width:{rectangle.Width}, height:{rectangle.Height}");
     }
 }

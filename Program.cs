@@ -1,5 +1,6 @@
 ﻿using Csharp.Fundamental;
 using Csharp.OOP;
+using Csharp.VarTypes;
 
 namespace HelloWorldExplicit;
 
@@ -16,6 +17,8 @@ class Program
         // SetGetDemo.Run();
         // OverloadMethodDemo.Run();
         // InheritanceDemo.Run();
-        PolymorphismDemo.Run();
+        // PolymorphismDemo.Run();
+        // EnumDemo.Run();
+        switchDemo.Run();
     }
 }

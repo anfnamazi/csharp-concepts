@@ -9,10 +9,16 @@ class MethodParameters
     public static void ChangeHeight(IRectangle rectangle)
     {
         rectangle.Height = 500;
+        rectangle = new Rectangle(200, 540);
     }
-    public static void ChangeHeightRef(ref StructRectangle rectangle)
+    public static void ChangeHeightRefStruct(ref StructRectangle rectangle)
     {
         rectangle.Height = 500;
+    }
+    public static void ChangeHeightRef(ref Rectangle rectangle)
+    {
+        rectangle.Height = 500;
+        rectangle = new Rectangle(200, 440);
     }
 }
 
@@ -26,11 +32,14 @@ class ValueReference : IDemo
         MethodParameters.ChangeHeight(structRectangle);
         MethodParameters.ChangeHeight(rectangle);
 
-        Console.Write($"struct rectangle height:{structRectangle.Height}");
-        Console.Write($"rectangle height:{rectangle.Height}");
+        Console.WriteLine($"struct rectangle height:{structRectangle.Height}");
+        Console.WriteLine($"rectangle height:{rectangle.Height}");
 
-        MethodParameters.ChangeHeightRef(ref structRectangle);
-        Console.Write($"ref struct rectangle height:{rectangle.Height}");
+        MethodParameters.ChangeHeightRefStruct(ref structRectangle);
+        Console.WriteLine($"ref struct rectangle height:{structRectangle.Height}");
+
+        MethodParameters.ChangeHeightRef(ref rectangle);
+        Console.WriteLine($"ref struct rectangle height:{rectangle.Height}");
     }
 }
 

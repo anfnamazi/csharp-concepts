@@ -21,6 +21,7 @@ class Program
         // EnumDemo.Run();
         // switchDemo.Run();
         // StructsDemo.Run();
-        ValueReference.Run();
+        // ValueReference.Run();
+        ExceptionDemo.Run();
     }
 }

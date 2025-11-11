@@ -1,4 +1,5 @@
-﻿using Csharp.Fundamental;
+﻿using Csharp.Collection;
+using Csharp.Fundamental;
 using Csharp.OOP;
 using Csharp.VarTypes;
 
@@ -22,6 +23,7 @@ class Program
         // switchDemo.Run();
         // StructsDemo.Run();
         // ValueReference.Run();
-        ExceptionDemo.Run();
+        // ExceptionDemo.Run();
+        ArrayDemo.Run();
     }
 }

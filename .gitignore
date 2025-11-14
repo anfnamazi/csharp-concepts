@@ -70,3 +70,5 @@ coverage/
 
 # IDE folders
 .vs/
+
+.fake

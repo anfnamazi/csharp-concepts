@@ -24,6 +24,8 @@ class Program
         // StructsDemo.Run();
         // ValueReference.Run();
         // ExceptionDemo.Run();
-        ArrayDemo.Run();
+        // ArrayDemo.Run();
+        // ArrayListDemo.Run();
+        GenericListDemo.Run();
     }
 }

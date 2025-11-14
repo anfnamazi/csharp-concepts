@@ -28,6 +28,7 @@ class Program
         // ArrayListDemo.Run();
         // GenericListDemo.Run();
         // GenericStackDemo.Run();
-        GenericQueueDemo.Run();
+        // GenericQueueDemo.Run();
+        GenericDictionaryDemo.Run();
     }
 }

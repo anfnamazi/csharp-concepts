@@ -26,6 +26,8 @@ class Program
         // ExceptionDemo.Run();
         // ArrayDemo.Run();
         // ArrayListDemo.Run();
-        GenericListDemo.Run();
+        // GenericListDemo.Run();
+        // GenericStackDemo.Run();
+        GenericQueueDemo.Run();
     }
 }

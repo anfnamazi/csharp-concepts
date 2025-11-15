@@ -31,6 +31,7 @@ class Program
         // GenericStackDemo.Run();
         // GenericQueueDemo.Run();
         // GenericDictionaryDemo.Run();
-        ExtensionDemo.Run();
+        // ExtensionDemo.Run();
+        GenericTypeDemo.Run();
     }
 }

@@ -1,4 +1,5 @@
-﻿using Csharp.Collection;
+﻿using Csharp.Advance;
+using Csharp.Collection;
 using Csharp.Fundamental;
 using Csharp.OOP;
 using Csharp.VarTypes;
@@ -29,6 +30,7 @@ class Program
         // GenericListDemo.Run();
         // GenericStackDemo.Run();
         // GenericQueueDemo.Run();
-        GenericDictionaryDemo.Run();
+        // GenericDictionaryDemo.Run();
+        ExtensionDemo.Run();
     }
 }

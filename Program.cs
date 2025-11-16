@@ -32,6 +32,7 @@ class Program
         // GenericQueueDemo.Run();
         // GenericDictionaryDemo.Run();
         // ExtensionDemo.Run();
-        GenericTypeDemo.Run();
+        // GenericTypeDemo.Run();
+        RecordTypeDemo.Run();
     }
 }

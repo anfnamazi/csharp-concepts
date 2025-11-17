@@ -4,7 +4,7 @@ using Csharp.Fundamental;
 using Csharp.OOP;
 using Csharp.VarTypes;
 
-namespace HelloWorldExplicit;
+namespace CsharpConcepts;
 
 class Program
 {

@@ -20,7 +20,6 @@ static class RectangleExtension
     }
 }
 
-
 class ExtensionDemo : IDemo
 {
     public static void Run()

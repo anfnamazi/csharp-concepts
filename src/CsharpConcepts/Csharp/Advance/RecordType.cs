@@ -1,5 +1,6 @@
-
 using Csharp.Interfaces;
+
+namespace Csharp.Advance;
 
 record RecordPerson(string FirstName, string LastName);
 

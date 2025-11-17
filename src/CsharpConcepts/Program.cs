@@ -34,7 +34,8 @@ class Program
         // GenericDictionaryDemo.Run();
         // ExtensionDemo.Run();
         // GenericTypeDemo.Run();
-        RecordTypeDemo.Run();
-        MessageProvider.WriteMsg();
+        // RecordTypeDemo.Run();
+        // MessageProvider.WriteMsg();
+        CustomExceptionDemo.Run();
     }
 }

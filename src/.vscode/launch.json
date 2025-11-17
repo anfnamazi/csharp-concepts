@@ -6,9 +6,9 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/CsharpConcepts/bin/Debug/net9.0/CsharpConcepts.dll",
+            "program": "${workspaceFolder}/CsharpConcepts.App/bin/Debug/net9.0/CsharpConcepts.App.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/CsharpConcepts",
+            "cwd": "${workspaceFolder}/CsharpConcepts.App",
             "console": "integratedTerminal",
             "stopAtEntry": false,
             "justMyCode": false

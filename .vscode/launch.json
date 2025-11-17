@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Launch (Console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/CsharpConcepts/bin/Debug/net9.0/CsharpConcepts.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/CsharpConcepts",
+            "console": "integratedTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}

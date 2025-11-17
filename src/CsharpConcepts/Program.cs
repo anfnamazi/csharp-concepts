@@ -1,4 +1,5 @@
-﻿using Csharp.Advance;
+﻿using ClassLibraries.Lib;
+using Csharp.Advance;
 using Csharp.Collection;
 using Csharp.Fundamental;
 using Csharp.OOP;
@@ -34,5 +35,6 @@ class Program
         // ExtensionDemo.Run();
         // GenericTypeDemo.Run();
         RecordTypeDemo.Run();
+        MessageProvider.WriteMsg();
     }
 }

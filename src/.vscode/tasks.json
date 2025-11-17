@@ -3,11 +3,11 @@
     "tasks": [
         {
             "label": "build",
-            "command": "dotnet",
             "type": "process",
+            "command": "dotnet",
             "args": [
                 "build",
-                "${workspaceFolder}/src/CsharpConcepts/CsharpConcepts.csproj",
+                "${workspaceFolder}/CsharpConcepts/CsharpConcepts.csproj",
                 "--configuration",
                 "Debug"
             ],

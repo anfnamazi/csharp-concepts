@@ -1,4 +1,5 @@
-﻿using CsharpConcepts.Demos.Advance;
+﻿using System.Threading.Tasks;
+using CsharpConcepts.Demos.Advance;
 using CsharpConcepts.Demos.Collection;
 using CsharpConcepts.Demos.Fundamental;
 using CsharpConcepts.Demos.OOP;
@@ -8,6 +9,11 @@ namespace CsharpConcepts.App;
 
 class Program
 {
+    // static async Task Main(string[] args)
+    // {
+    //     await AsyncAwaitDemo.Run();
+    // }
+
     static void Main(string[] args)
     {
         // Console.WriteLine(args[1]);

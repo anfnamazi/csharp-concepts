@@ -18,9 +18,9 @@ public static class CollectionList
 
     public static readonly List<RecordPerson> recordPersonList =
     [
-        new("John", "Deer"),
-        new("John", "Apple"),
-        new("Tim", "Walter"),
-        new("April", "Johnson"),
+        new("John", "Deer", 24),
+        new("John", "Apple", 43),
+        new("Tim", "Walter", 32),
+        new("April", "Johnson", 53),
     ];
 }

@@ -7,8 +7,8 @@ public class RecordTypeDemo : IDemo
 {
     public static void Run()
     {
-        RecordPerson record1 = new RecordPerson("Peter", "Parker");
-        RecordPerson record2 = new RecordPerson("Peter", "Parker");
+        RecordPerson record1 = new("Peter", "Parker", 26);
+        RecordPerson record2 = new("Peter", "Parker", 26);
         Console.WriteLine(record1 == record2);
         // cannot change properties like:
         // record1.FirstName = "John";
@@ -16,7 +16,7 @@ public class RecordTypeDemo : IDemo
         // cannot use nullable value like:
         // Console.WriteLine(nullableRecord.FirstName);
         Console.WriteLine(nullableRecord?.LastName);
-        nullableRecord = new RecordPerson("Jessica", "White");
+        nullableRecord = new RecordPerson("Jessica", "White", 43);
         Console.WriteLine(nullableRecord?.FirstName);
     }
 }

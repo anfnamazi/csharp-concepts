@@ -2,6 +2,7 @@
 using CsharpConcepts.Demos.Advance;
 using CsharpConcepts.Demos.Collection;
 using CsharpConcepts.Demos.Fundamental;
+using CsharpConcepts.Demos.LINQ;
 using CsharpConcepts.Demos.OOP;
 using CsharpConcepts.Demos.VarTypes;
 
@@ -40,6 +41,7 @@ class Program
         // ExtensionDemo.Run();
         // GenericTypeDemo.Run();
         // RecordTypeDemo.Run();
-        CustomExceptionDemo.Run();
+        // CustomExceptionDemo.Run();
+        FilteringDemo.Run();
     }
 }

@@ -43,6 +43,7 @@ class Program
         // RecordTypeDemo.Run();
         // CustomExceptionDemo.Run();
         // FilteringDemo.Run();
-        OrderingDemo.Run();
+        // OrderingDemo.Run();
+        SelectingDemo.Run();
     }
 }

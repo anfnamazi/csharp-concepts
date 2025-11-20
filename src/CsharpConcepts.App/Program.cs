@@ -45,6 +45,7 @@ class Program
         // FilteringDemo.Run();
         // OrderingDemo.Run();
         // SelectingDemo.Run();
-        GroupingDemo.Run();
+        // GroupingDemo.Run();
+        QueryingDemo.Run();
     }
 }

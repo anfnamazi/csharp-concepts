@@ -1,8 +1,7 @@
 using CsharpConcepts.Core.Interfaces;
+using CsharpConcepts.Core.Models;
 
 namespace CsharpConcepts.Demos.Advance;
-
-record RecordPerson(string FirstName, string LastName);
 
 public class RecordTypeDemo : IDemo
 {

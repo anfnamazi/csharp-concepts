@@ -44,6 +44,7 @@ class Program
         // CustomExceptionDemo.Run();
         // FilteringDemo.Run();
         // OrderingDemo.Run();
-        SelectingDemo.Run();
+        // SelectingDemo.Run();
+        GroupingDemo.Run();
     }
 }

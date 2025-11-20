@@ -8,15 +8,10 @@ interface ISalary
     public decimal GetSalary();
 }
 
-class Employee : Person, ISalary
+class FormalEmployee : Employee, ISalary
 {
-    public Employee(string name, string role)
-        : base(name)
-    {
-        Role = role;
-    }
-
-    public string Role { get; set; }
+    public FormalEmployee(string name, string role)
+        : base(name, role) { }
 
     public override string GetId()
     {
@@ -34,7 +29,7 @@ public class InheritanceDemo : IDemo
     public static void Run()
     {
         Person person = new Person("John");
-        Employee employee = new Employee("Jessica", "CEO");
+        FormalEmployee employee = new FormalEmployee("Jessica", "CEO");
 
         Console.WriteLine($"Person: {person.GetId()}");
         Console.WriteLine($"Employee: {employee.GetId()}, Salary: {employee.GetSalary()}");

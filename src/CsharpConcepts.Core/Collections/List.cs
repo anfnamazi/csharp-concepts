@@ -23,4 +23,13 @@ public static class CollectionList
         new("Tim", "Walter", 32),
         new("April", "Johnson", 53),
     ];
+
+    public static readonly List<Employee> employeeList =
+    [
+        new("John Walter", "Developer"),
+        new("Alex Deer", "CEO"),
+        new("Jessica White", "Developer"),
+        new("James Johnson", "CTO"),
+        new("Jessica Apple", "PO"),
+    ];
 }

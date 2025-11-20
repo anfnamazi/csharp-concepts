@@ -42,6 +42,7 @@ class Program
         // GenericTypeDemo.Run();
         // RecordTypeDemo.Run();
         // CustomExceptionDemo.Run();
-        FilteringDemo.Run();
+        // FilteringDemo.Run();
+        OrderingDemo.Run();
     }
 }

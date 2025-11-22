@@ -3,7 +3,7 @@ using CsharpConcepts.Core.Models;
 
 namespace CsharpConcepts.Demos.Advance;
 
-static class RectangleExtension
+public static class RectangleExtension
 {
     // can use class
     public static int CalcArea(this Rectangle rectangle)
